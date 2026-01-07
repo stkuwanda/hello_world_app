@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
-        child: Column(
+        child: ListView(
           // Column is also a layout widget. It takes a list of children and
           // arranges them vertically. By default, it sizes itself to fit its
           // children horizontally, and tries to be as tall as its parent.
@@ -105,9 +105,8 @@ class _MyHomePageState extends State<MyHomePage> {
           // action in the IDE, or press "p" in the console), to see the
           // wireframe for each widget.
           // mainAxisAlignment: .center,
-          crossAxisAlignment: CrossAxisAlignment
-              .start, // Align to the start of the horizontal axis
-          mainAxisSize: MainAxisSize.min, // Take up minimum vertical space
+          // crossAxisAlignment: CrossAxisAlignment.start, // Align to the start of the horizontal axis
+          // mainAxisSize: MainAxisSize.min, // Take up minimum vertical space
           children: [
             Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Harare')),
             Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Mutare')),
