@@ -108,27 +108,90 @@ class _MyHomePageState extends State<MyHomePage> {
           // crossAxisAlignment: CrossAxisAlignment.start, // Align to the start of the horizontal axis
           // mainAxisSize: MainAxisSize.min, // Take up minimum vertical space
           children: [
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Harare')),
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Mutare')),
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Kwekwe')),
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'New York')),
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Tangier')),
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Rabat')),
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Casablanca')),
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Caracas')),
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Buenos Ares')),
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Dubai')),
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'London')),
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Madrid')),
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Beijing')),
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Tokyo')),
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Bulawayo')),
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Gujarat')),
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Beirut')),
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Berlin')),
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Sydney')),
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Paris')),
-            Padding(padding: EdgeInsets.all(16.0), child: DestinationWidget(destinationName: 'Debrecen')),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'Harare'),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'Mutare'),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'Kwekwe'),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'New York'),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'Tangier'),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'Rabat'),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'Casablanca'),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'Caracas'),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'Buenos Ares'),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'Dubai'),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'London'),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'Madrid'),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'Beijing'),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'Tokyo'),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'Bulawayo'),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'Gujarat'),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'Beirut'),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'Berlin'),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'Sydney'),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'Paris'),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DestinationWidget(destinationName: 'Debrecen'),
+            ),
           ],
         ),
       ),
