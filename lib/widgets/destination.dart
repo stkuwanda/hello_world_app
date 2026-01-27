@@ -21,8 +21,33 @@ class _DestinationState extends State<Destination> {
     _likeCounter = 0;
   }
 
+  // Cleanup resources when the widget is disposed. This is called when the widget is removed from the widget tree.
+  @override
+  void dispose() {
+    // could be disposed of if it was a database or API
+    // custom cleanup code here
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Row(children: [Text(widget.destinationName), Text('$_likeCounter')]);
+    return Row(
+      children: [
+        Text(widget.destinationName),
+        Column(
+          children: [
+            IconButton(
+              onPressed: () {
+                setState(() {
+                  _likeCounter++;
+                });
+              },
+              icon: const Icon(Icons.favorite),
+            ),
+          ],
+        ),
+        Text('$_likeCounter'),
+      ],
+    );
   }
 }
